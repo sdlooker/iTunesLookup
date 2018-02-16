@@ -13,6 +13,8 @@
 		1F49E0542037608100659CFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F49E0532037608100659CFF /* Assets.xcassets */; };
 		1F49E0572037608100659CFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F49E0552037608100659CFF /* LaunchScreen.storyboard */; };
 		1F49E05A2037608100659CFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49E0592037608100659CFF /* main.m */; };
+		1F49E0622037662400659CFF /* LyricsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49E0612037662400659CFF /* LyricsTableViewController.m */; };
+		1F49E0652037688A00659CFF /* QuickRest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F49E0642037688A00659CFF /* QuickRest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		1F49E0562037608100659CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F49E0582037608100659CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F49E0592037608100659CFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F49E0602037662400659CFF /* LyricsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LyricsTableViewController.h; sourceTree = "<group>"; };
+		1F49E0612037662400659CFF /* LyricsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LyricsTableViewController.m; sourceTree = "<group>"; };
+		1F49E0632037688A00659CFF /* QuickRest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickRest.h; sourceTree = "<group>"; };
+		1F49E0642037688A00659CFF /* QuickRest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickRest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,11 @@
 				1F49E04B2037608100659CFF /* AppDelegate.m */,
 				1F49E04D2037608100659CFF /* ViewController.h */,
 				1F49E04E2037608100659CFF /* ViewController.m */,
+				1F49E0602037662400659CFF /* LyricsTableViewController.h */,
+				1F49E0612037662400659CFF /* LyricsTableViewController.m */,
 				1F49E0502037608100659CFF /* Main.storyboard */,
+				1F49E0632037688A00659CFF /* QuickRest.h */,
+				1F49E0642037688A00659CFF /* QuickRest.m */,
 				1F49E0532037608100659CFF /* Assets.xcassets */,
 				1F49E0552037608100659CFF /* LaunchScreen.storyboard */,
 				1F49E0582037608100659CFF /* Info.plist */,
@@ -143,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F49E04F2037608100659CFF /* ViewController.m in Sources */,
+				1F49E0652037688A00659CFF /* QuickRest.m in Sources */,
 				1F49E05A2037608100659CFF /* main.m in Sources */,
 				1F49E04C2037608100659CFF /* AppDelegate.m in Sources */,
+				1F49E0622037662400659CFF /* LyricsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
